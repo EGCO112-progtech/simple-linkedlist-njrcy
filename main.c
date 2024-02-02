@@ -80,6 +80,16 @@ int main(int argc, const char * argv[]) {
         }
         tmp=tmp->next;
      }     
+    /**********
+    tmp->value=2;
+    tmp->next=(NodePtr)malloc(sizeof(struct node));
+    
+    tmp=tmp->next;
+    tmp->value=5;
+
+    tmp->next=NULL;
+    */////
+
      
 
     //  Exercise VI Free all node !!
